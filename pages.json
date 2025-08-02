@@ -1,0 +1,56 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "第一页"
+			}
+		},
+		{
+			"path" : "pages/index/data",
+			"style" : 
+			{
+				"navigationBarTitleText" : "第二页"
+			}
+		},
+		{
+			"path" : "pages/index/me",
+			"style" : 
+			{
+				"navigationBarTitleText" : "第三页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AI浮动按钮聊天窗口",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#caac64",  //默认
+		"selectedColor": "#1479fe",  //选中
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "index",
+				"iconPath": "static/tabBarIco/index_01.png",
+				"selectedIconPath": "static/tabBarIco/index_02.png"
+			},
+			{
+				"pagePath": "pages/index/data",
+				"text": "data",
+				"iconPath": "static/tabBarIco/data_01.png",
+				"selectedIconPath": "/static/tabBarIco/data_02.png"
+			},
+			{ 
+				"pagePath": "pages/index/me",
+				"text": "me",
+				"iconPath": "static/tabBarIco/me_01.png",
+				"selectedIconPath": "static/tabBarIco/me_02.png"
+			}
+		]
+	}
+}
